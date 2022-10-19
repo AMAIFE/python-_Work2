@@ -10,11 +10,13 @@ class Human:
         self.leg_count = count
 
 
-Human_beings = Human()
-print("Human:", Human_beings.get_description, Human_beings.can_walk)
+human = Human()
+print("Human:", human.get_description, human.can_walk)
 
-Nleg = Human("tiger")
-print("Human:", Nleg.get_description, Nleg.leg_count)
+leg_count = Human()
+print("Human:", leg_count.get_description, leg_count.leg_count)
+
+
 
 
 
